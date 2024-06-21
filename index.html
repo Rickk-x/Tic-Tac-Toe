@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-tac-toe</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="d-flex justify-content-center">
+        <div class="d-flex flex-column">
+            <h2 class="text-center" id="winner">player 1 start</h2>
+            <div class="d-flex flex-row">
+                <div onclick="test(id)" id="one" class="p-5 border border-dark"></div>
+                <div onclick="test(id)" id="two" class="p-5 border border-dark"></div>
+                <div onclick="test(id)" id="three" class="p-5 border border-dark"></div>
+            </div>
+            <div class="d-flex flex-row">
+                <div onclick="test(id)" id="four" class="p-5 border border-dark"></div>
+                <div onclick="test(id)" id="five" class="p-5 border border-dark"></div>
+                <div onclick="test(id)" id="six" class="p-5 border border-dark"></div>
+            </div>
+            <div class="d-flex flex-row">
+                <div onclick="test(id)" id="seven" class="p-5 border border-dark"></div>
+                <div onclick="test(id)" id="eight" class="p-5 border border-dark"></div>
+                <div onclick="test(id)" id="nine" class="p-5 border border-dark"></div>
+            </div>
+
+
+            <!-- <div onclick="reset()" class="test">restart</div> -->
+            <button class="my-2" onclick="reset()">Restart</button>
+        </div>
+         
+            <script src="script.js"></script>
+</body>
+
+</html>
